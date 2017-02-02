@@ -1,3 +1,50 @@
 html {
   background-image: linear-gradient(#ff9500, #ff5e3a);
+  font-family: Overpass, sans-serif;
+  color: #fff;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.btn {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-ghost {
+  background-color: transparent;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+li {
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+i {
+  color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  li {
+    border-right: 2px solid rgba(255, 255, 255, .5);
+    border-bottom: none;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
 }
